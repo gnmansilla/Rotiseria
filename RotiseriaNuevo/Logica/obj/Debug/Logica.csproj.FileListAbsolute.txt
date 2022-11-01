@@ -1,0 +1,9 @@
+C:\repo\go\src\clases\RotiseriaNuevo\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\repo\go\src\clases\RotiseriaNuevo\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\repo\go\src\clases\RotiseriaNuevo\Logica\bin\Debug\Logica.dll
+C:\repo\go\src\clases\RotiseriaNuevo\Logica\bin\Debug\Logica.pdb
+C:\repo\go\src\clases\RotiseriaNuevo\Logica\bin\Debug\Newtonsoft.Json.dll
+C:\repo\go\src\clases\RotiseriaNuevo\Logica\bin\Debug\Newtonsoft.Json.xml
+C:\repo\go\src\clases\RotiseriaNuevo\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\repo\go\src\clases\RotiseriaNuevo\Logica\obj\Debug\Logica.dll
+C:\repo\go\src\clases\RotiseriaNuevo\Logica\obj\Debug\Logica.pdb

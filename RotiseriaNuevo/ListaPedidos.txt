@@ -1,0 +1,1 @@
+[{"IdPedido":567,"IdCliente":1,"Tipo":"hamburguesas","HorarioEstimado":"21","CostoFinal":456},{"IdPedido":56,"IdCliente":56,"Tipo":"panchos","HorarioEstimado":"22:00","CostoFinal":456},{"IdPedido":565,"IdCliente":565,"Tipo":"frutilla","HorarioEstimado":"22:00","CostoFinal":456}]

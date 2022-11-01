@@ -1,0 +1,1 @@
+[{"IdCliente":2,"Nombre":"fafafafafa","Dni":212432112,"Telefono":"214324342","Direccion":"safaffwf 45535"}]

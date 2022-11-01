@@ -1,0 +1,1 @@
+[{"IdVentas":344,"Fecha":"21","IdPedido":4433,"IdCliente":0,"Tipo":"empanadas","HorarioEstimado":"21","CostoFinal":567},{"IdVentas":1,"Fecha":"14 octubre 2001","IdPedido":1,"IdCliente":0,"Tipo":"milanesa","HorarioEstimado":"21:00","CostoFinal":567},{"IdVentas":5,"Fecha":"21 noviembre","IdPedido":5,"IdCliente":5,"Tipo":"jfjsfjdsjfs","HorarioEstimado":"23:05","CostoFinal":4456}]

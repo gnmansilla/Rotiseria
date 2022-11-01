@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DCF1B5E9-5373-45F3-B868-70CFC75D62C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BajaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BajaCliente.Designer.cs">
+      <DependentUpon>BajaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BajaPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BajaPedidos.Designer.cs">
+      <DependentUpon>BajaPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BajaVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BajaVentas.Designer.cs">
+      <DependentUpon>BajaVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifCliente.Designer.cs">
+      <DependentUpon>ModifCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifPedidos.Designer.cs">
+      <DependentUpon>ModifPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifVentas.Designer.cs">
+      <DependentUpon>ModifVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantAltaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantAltaCliente.Designer.cs">
+      <DependentUpon>PantAltaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantAltPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantAltPedidos.Designer.cs">
+      <DependentUpon>PantAltPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantAltVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantAltVentas.Designer.cs">
+      <DependentUpon>PantAltVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantCliente.Designer.cs">
+      <DependentUpon>PantCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantMenPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantMenPrincipal.Designer.cs">
+      <DependentUpon>PantMenPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantPedidos.Designer.cs">
+      <DependentUpon>PantPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantVentas.Designer.cs">
+      <DependentUpon>PantVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BajaCliente.resx">
+      <DependentUpon>BajaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BajaPedidos.resx">
+      <DependentUpon>BajaPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BajaVentas.resx">
+      <DependentUpon>BajaVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifCliente.resx">
+      <DependentUpon>ModifCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifPedidos.resx">
+      <DependentUpon>ModifPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifVentas.resx">
+      <DependentUpon>ModifVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantAltaCliente.resx">
+      <DependentUpon>PantAltaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantAltPedidos.resx">
+      <DependentUpon>PantAltPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantAltVentas.resx">
+      <DependentUpon>PantAltVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantCliente.resx">
+      <DependentUpon>PantCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantMenPrincipal.resx">
+      <DependentUpon>PantMenPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantPedidos.resx">
+      <DependentUpon>PantPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantVentas.resx">
+      <DependentUpon>PantVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Logica.Cliente.datasource" />
+    <None Include="Properties\DataSources\Logica.Pedido.datasource" />
+    <None Include="Properties\DataSources\Logica.Ventas.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logica\Logica.csproj">
+      <Project>{b2deca14-68c6-471f-b002-65211b2451f1}</Project>
+      <Name>Logica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROTI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimazar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\res.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\concepto-restaurante-icono-plano-lineal-cubiertos-y-plato-en-color-negro-400-210540805.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin título.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\concepto-restaurante-icono-plano-lineal-cubiertos-y-plato-en-color-negro-400-2105408051.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
